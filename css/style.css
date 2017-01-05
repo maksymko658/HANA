@@ -1,0 +1,566 @@
+body {
+    visibility: visible;
+    background-color: #f4f2f2;
+    line-height: 2.52;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 25px;
+    text-align: center;
+}
+li {
+    color: #000000;
+}
+ol, ul {
+    list-style: none;
+}
+.section-padding{
+    padding: 60px 0px;
+}
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 450;
+    color: #000000;
+    font-size: 38px;
+    font-weight: 600px;
+    margin-top: 40px;
+}
+h2 {
+    font-family: 'Montserrat';
+    color: #000000;
+    font-size: 25px;
+    font-weight: 500px;
+
+}
+a{
+    color: #5fcf80;
+}
+div.ic1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+div.ic {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+div.ic3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+}
+a:hover, a:focus{
+    color: #5fcf80;
+}
+/***********************************
+Navigation bar
+************************************/
+.navbar-default .navbar-brand a, span {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: bolder;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin-top: 10px;
+    display: inline-block;
+}
+.mynavbar {
+    text-align:center;
+}
+.navbar-default {
+    background-color: #ffffff;
+}
+.course-text{
+    padding: 84px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #717f86;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: -25px !important;
+}
+.navbar-nav > li > a{
+    padding: 0px;
+    margin: 20px 10px;
+    padding: 10px 15px;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
+{
+    color: #5FCF80;
+}
+
+.navbar-nav .active a{
+    background: none !important;
+    color: #5FCF80 !important;
+    outline: none;
+}
+.navbar-default .navbar-brand {
+    font-weight: 700;x
+    text-transform: uppercase;
+    padding: 0px;
+    height: inherit;
+    font-size: 36px;
+    margin: 2px 0px;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+.padding-zero{
+    padding: 0px;
+}
+.mart20{
+    margin-top: 20px;
+}
+
+/***********************************
+Price Table
+************************************/
+.pricen {
+    background-color: white;
+}
+.content {
+    padding: 30px 0;
+}
+.pricing {
+    position: relative;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #eee;
+}
+.pricing-active {
+    border: 3px solid #5FCF80;
+    margin-top: -10px;
+    box-shadow: 7px 7px rgba(54, 215, 172, 0.2);
+}
+.pricing:hover {
+    border: 5px solid #5FCF80;
+}
+.pricing:hover h4 {
+    color: #5FCF80;
+}
+.pricing-head {
+    text-align: center;
+}
+.pricing-head h3,
+.pricing-head h4 {
+    margin: 0;
+    line-height: normal;
+}
+.pricing-head h3 span,
+.pricing-head h4 span {
+    display: block;
+    margin-top: 5px;
+    font-size: 17px;
+    font-style: italic;
+}
+.pricing-head h3 {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color: #fafafa;
+    padding: 12px 0;
+    font-size: 27px;
+    background: #5FCF80;
+    border-bottom: solid 1px #41b91c;
+}
+.pricing-head h4 {
+    font-family: 'Montserrat';
+    color: orange;
+    padding: 5px 0;
+    font-size: 54px;
+    font-weight: 300;
+    background: #fbfef2;
+    border-bottom: solid 1px #f5f9e7;
+}
+.pricing-head del {
+    color: #cff09e;
+    }
+.pricing-head-active h4 {
+    color: #5FCF80
+}
+.pricing-head h4 i {
+    top: -8px;
+    font-size: 28px;
+    font-style: normal;
+    position: relative;
+    color: 
+}
+.pricing-head h4 span {
+    font-size: 15px;
+    font-style: normal;
+    position: relative;
+}
+.pricing-head h5 span {
+    color: #FF9C23;
+    top: -10px;
+    font-size: 15px;
+    font-style: normal;
+    position: relative;
+}
+/*Price content*/
+.pricing-content li {
+    font-family: sans-serif;
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 7px 15px;
+    border-bottom: solid 1px #5FCF80;
+    text-align: center;
+}
+.pricing-content del {
+    color: #a3a1a1;
+}
+/*price footer*/
+.pricing-footer {
+    color: #777
+    font-size: 11px;
+    line-height: 17px;
+    text-align: center;
+    padding: 0 20px 19px;
+}
+
+/*Pricing active*/
+.price-active,
+.pricing:hover {
+    z-index: 9;
+}
+.price-active h4 {
+    color: #5FCF80;
+}
+.no-space-pricing .price-active .priceing-head h4,
+.no-space-pricing .pricing:hover .pricing-head h4 {
+    color: #5FCF80;
+    padding: 15px 0;
+    font-size: 80px;
+    transition: color: 0.5s ease-in-out;
+}
+
+/*END OF PRICING*/
+/*Comments*/
+.panel-shadow {
+    box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+}
+.panel-white {
+    border: 1px solid #dddddd;
+}
+.panel-white .panel-heading {
+    color: #333;
+    background-color: #fff;
+    border-color: #ddd;
+}
+.panel-white .panel-footer {
+    background-color: #fff;
+    border-color: #ddd;
+}
+.post .post-heading {
+    height: 95px;
+    padding: 20px 15px;
+}
+.post .post-heading .avatar {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.post .post-heading .meta .title {
+    margin-bottom: 0;
+}
+.post .post-heading .meta .title a {
+    color: black;
+}
+.post .post-heading .meta .title a:hover {
+    color: #aaaaaa;
+}
+.post .post-heading .meta .time {
+    margin-top: 8px;
+    color: #999;
+}
+.post .post-image .image {
+    width: 100%;
+    height: auto;
+}
+.post .post-description {
+    padding: 15px;
+}
+.post .post-description p {
+    font-size: 16px;
+}
+.post .post-description .stats {
+    margin-top: 20px;
+}
+.post .post-description .stat .stat-item .icon {
+    margin-right: 8px;
+}
+.post .post-footer {
+    border-top: 1px solid #ddd;
+    padding: 15px;
+}
+.post .post-footer .input-group-addon a {
+    color: #454545;
+}
+.post .post-footer .comments-list {
+    padding: 0;
+    margin-top: 20px;
+    list-style-type: none;
+}
+.post .post-footer .comments-list .comment {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+}
+.post .post-footer .comments-list .comment .avatar {
+    width: 35px;
+    height: 35px;
+}
+.post .post-footer .comments-list .comment .comments-heading {
+    display: block;
+    width: 100%;
+}
+.post .post-footer .comments-list .comment .comment-heading .user {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline;
+    margin-top: 0;
+    margin-right: 10px;
+}
+.post .post-footer .comments-list .comment .comment-heading .time {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 0;
+    display: inline;
+}
+.post .post-footer .comments-list .comment .comment-body {
+    margin-left: 50px;
+}
+.post .post-footer .comments-list .comment > .comments-list {
+    margin-left: 50px;
+}
+
+/*END COMMENTS*/
+/*services*/
+.srvices_main1 {
+    overflow: hidden;
+    margin-top: 10px;
+    padding: 30px 0 0;
+    width: 100%;
+    background-color: white;
+}
+.service_first {
+    background: #f2efef none repeat scroll 0 0;
+    border: 1px dotted #c0c0c0;
+    border-radius: 0;
+    padding: 20px 10px;
+    width: 100%;
+}
+.service_first h1 {
+    color: #000;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    padding: 5px 0 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.heading {
+    border-bottom: 1px solid #fcab0e;
+    padding-bottom: 9px;
+    position: relative;
+}
+.service_first p {
+    font-size: 17px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0 15px 15px;
+    text-align: center;
+}
+.service_first:hover {
+    background: #fff none repeat scroll 0 0;
+    border: 1px dashed #aaa;
+    cursor: auto;
+    display: block;
+}
+/*END SERVICES*/
+/*footer*/
+footer {
+    background-color: white;
+    padding: 15px;
+    border-top: 1px solid #cff09e;
+}
+
+footer p {
+    color: #000000;
+    text-shadow: 0 1px 1px #ccc;
+}
+
+footer .right
+{
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+}
+
+footer .left
+{
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+}
+.socials {
+    list-style: none;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.socials li {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+/*END FOOTER*/
+
+
+@media (min-width: 769px) and (max-width: 980px) {
+    .ser-text {
+    font-size: 20px;
+    }
+    .service-box, .feature-info, .orga-stru{
+        margin-bottom: 30px;
+    }
+    .pricing-head .amount {
+    font-size: 51px;
+    }
+    .price-table .pricing-head h4 {
+    font-size: 18px;
+    }
+    .navbar-default .navbar-nav > li > a {
+    color: #717f86;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: -25px !important;
+    }
+}
+@media (min-width: 451px) and (max-width: 768px) {
+    .ser-text {
+    font-size: 20px;
+    }
+    .service-box, .feature-info{
+        margin-bottom: 30px;
+    }
+
+    .pricing-head .amount {
+    font-size: 51px;
+    }
+    .price-table .pricing-head h4 {
+    font-size: 18px;
+    }   
+    .navbar-default .navbar-nav > li > a {
+    color: #717f86;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: -25px !important;
+    }
+}
+@media (min-width: 20px) and (max-width: 450px) {
+    .text-dec {
+    font-size: 20px;
+    }
+    .big-text {
+    font-size: 30px;
+    }
+    .small-text {
+    font-size: 14px;
+    }
+    .intro-para {
+    font-size: 30px;
+    }
+    .header-section p{
+        font-size: 14px;
+    }
+    .heading {
+    margin-bottom: 20px;
+    }
+    .orga-stru i {
+    font-size: 92px;
+    }
+    .orga-stru {
+    padding: 5px 5px 15px 5px;
+    width: 75px;
+    margin-bottom: 20px;
+    }
+    .orga-stru h3 {
+    font-size: 28px;
+    }
+    .orga-stru p {
+    font-size: 13px;
+    }
+    h3.det-txt {
+    font-size: 28px;
+    }
+    .cta-2-txt {
+    font-size: 20px;
+    }
+    .service-box, .text-comment, .price-table{
+        margin-bottom: 30px;
+    }
+    .contact-form-button{
+        width: 40%;
+    }
+    .footer .social-links li {
+    margin: 0 5px 25px;
+    }
+    .cta-2-form-submit-btn {
+    font-size: 10px;
+    }
+    .cta-2-form input[type="email"] {
+    padding: 13px 10px;
+    font-size: 10px;
+    min-width: 187px;
+    }
+    .login-box-body {
+    padding: 15px 20px;
+    }
+    .navbar-default .navbar-brand{
+        margin-left: 10px;
+    }
+    .navbar-default .navbar-nav > li > a{
+        text-align: center;
+    }
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 991px) {
+    .navbar-default span {
+        font-size: 15px;
+        font-weight: bolder;
+        text-align: center;
+        position: relative;
+    }
+    .navbar-header {
+        margin: 0 auto;
+        padding: 0 80px;
+    }
+    .navbar-title {
+        float: right;
+        text-align: right;
+    }
+    footer .right {
+        float: none;
+        text-align: center;
+    }
+
+    footer .left{
+        float: none;
+        text-align: center;
+    }
+}
